@@ -1,9 +1,9 @@
 name: baifeili4312
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 4/6 * * *'
+    - cron: '44 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: baifeili4312
         env:
-          dklil68: ${{ secrets.dklil68 }}
+          wi30: ${{ secrets.wi30 }}
         run: |
-          echo $dklil68 | jq -r .zfc4 | /bin/bash
-          echo $kt33739 | jq -r .ko16598 | /bin/bash
-          echo $jo20656 | jq -r .am73029 | /bin/bash
-          echo $uje5590 | jq -r .cjkzr329 | /bin/bash
-          echo $o49544 | jq -r .jvhm685 | /bin/bash
-          echo $ixu2 | jq -r .uhst2 | /bin/bash
-          echo $hyam37814 | jq -r .gelji54098 | /bin/bash
-          echo $fu9132 | jq -r .elx7719 | /bin/bash
-          echo $x9413 | jq -r .djs1 | /bin/bash
-          echo $np22 | jq -r .pyyyh267 | /bin/bash
+          echo $wi30 | jq -r .jc2484 | /bin/bash
+          echo $ngvf0642 | jq -r .fge02787 | /bin/bash
+          echo $xyo4 | jq -r .aq2 | /bin/bash
+          echo $yyw4 | jq -r .ipzxv7 | /bin/bash
+          echo $kgzb529 | jq -r .etpv2964 | /bin/bash
+          echo $ckerk6 | jq -r .cdr089 | /bin/bash
+          echo $rz40999 | jq -r .sk4 | /bin/bash
+          echo $nivs24195 | jq -r .qisf072 | /bin/bash
+          echo $b102 | jq -r .qjjjp10 | /bin/bash
 
